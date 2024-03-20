@@ -98,12 +98,12 @@ body {
 .article__top-box {
   display: flex;
   align-items: center;
-  gap: 15px;
 }
 .article__title {
   font-size: 24px;
   font-weight: 700;
   line-height: 120%;
+  margin-right: 15px;
 }
 
 .article__text {
@@ -117,21 +117,23 @@ body {
 }
 .article__bottom-box {
   display: flex;
-  gap: 8px;
+
   align-items: center;
   flex-wrap: wrap;
 }
 .article__bottom-btn {
   display: flex;
-  gap: 8px;
   border-radius: 12px;
   background-color: rgb(54, 186, 95);
   color: rgb(255, 255, 255);
   padding: 15px 56px;
+  margin-right: 8px;
+}
+.article__bottom-btn-img {
+  margin-right: 8px;
 }
 .article__bottom-list {
   display: flex;
-  gap: 8px;
 }
 .article__item {
   padding: 16px;
@@ -139,6 +141,7 @@ body {
   background-color: rgb(249, 249, 249);
   border: 1px solid transparent;
   transition: all 0.3s;
+  margin-right: 8px;
 }
 .article__item:hover {
   background-color: inherit;
