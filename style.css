@@ -147,3 +147,8 @@ body {
   background-color: inherit;
   border-color: rgb(54, 186, 95);
 }
+@media (max-width: 371px) {
+  .article__bottom-btn {
+    margin-bottom: 8px;
+  }
+}
